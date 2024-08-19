@@ -9,7 +9,8 @@ void main()
 {
 	srand(time(NULL));
 
-	int randomNum[1] = rand() % 45;
+	int randomNum[1] = {};
+	randomNum[0] = rand() % 45;
 	int rotteryNum[45] = {};
 	//rotteryNum[0] ~ rotteryNum[5]
 	//rotteryNum[6]
